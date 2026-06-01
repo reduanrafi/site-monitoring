@@ -26,9 +26,11 @@ import requests
 #    one (e.g. your API), otherwise just the homepage is fine.
 # ---------------------------------------------------------------------------
 SITES = [
-    "https://example.com",
-    "https://api.yoursite.com/health",
-    "https://another-site.com",
+    "https://www.wetopianmarket.com.bd/",
+    "https://api.wetopianmarket.com.bd",
+    "http://luxbeyond.com.bd/",
+    "http://luxbeyond.store/",
+    "https://ettabashop.com/",
 ]
 
 TIMEOUT = 30          # seconds to wait before calling a site "down"
