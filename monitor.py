@@ -15,6 +15,7 @@ prints to the log.
 import json
 import os
 import smtplib
+import sys
 import time
 from email.mime.text import MIMEText
 from pathlib import Path
@@ -130,4 +131,9 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    if "--test" in sys.argv:
+        print("Sending test notification...")
+        notify("✅ Monitor Online", "WeTechBD site monitor is configured correctly and running.")
+        print("Done. Check your Telegram/Discord/email.")
+    else:
+        main()
