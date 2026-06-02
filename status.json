@@ -1,7 +1,7 @@
 {
   "https://www.wetopianmarket.com.bd/": "up",
-  "https://api.wetopianmarket.com.bd": "down",
+  "https://api.wetopianmarket.com.bd/api/v1/GetMostRecentContentsAsync": "up",
   "http://luxbeyond.com.bd/": "up",
   "http://luxbeyond.store/": "up",
-  "https://ettabashop.com/": "up"
+  "https://ettabashop.com/": "down"
 }
