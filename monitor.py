@@ -28,7 +28,7 @@ import requests
 # ---------------------------------------------------------------------------
 SITES = [
     "https://www.wetopianmarket.com.bd/",
-    "https://api.wetopianmarket.com.bd",
+    "https://api.wetopianmarket.com.bd/api/v1/GetMostRecentContentsAsync",
     "http://luxbeyond.com.bd/",
     "http://luxbeyond.store/",
     "https://ettabashop.com/",
